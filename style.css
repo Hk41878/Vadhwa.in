@@ -365,3 +365,13 @@ a { color: inherit; }
     transition-duration: .01ms !important;
   }
 }
+
+.search-box input {
+  font-size: 16px;
+}
+
+@media (min-width: 601px) {
+  .search-box input {
+    font-size: 12px;
+  }
+}
